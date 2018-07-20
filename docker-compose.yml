@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  node_my:
+    build:
+      context: .
+    ports:
+        - 2000:2000
+        - 3000:3000
